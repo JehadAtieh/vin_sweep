@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 
-import 'Landing/first_landing.dart';
+import 'Auth/login/login_page.dart';
+import 'Landing/Screen_Landing/first_landing.dart';
 import 'generated/l10n.dart';
 import 'l10n/app_locale.dart';
 
@@ -25,7 +26,7 @@ void main() {
        ],
 
        debugShowCheckedModeBanner: false,
-       home: FirstLanding(),
+       home: LandingPage(),
      ) ;
    }
  }

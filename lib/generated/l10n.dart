@@ -89,6 +89,226 @@ class S {
       args: [],
     );
   }
+
+  /// `Quickly get information about any vehicle by entering the VIN manually, scanning an image, or taking a photo.`
+  String get quicklyGetInformationAboutAnyVehicleByEnteringTheVin {
+    return Intl.message(
+      'Quickly get information about any vehicle by entering the VIN manually, scanning an image, or taking a photo.',
+      name: 'quicklyGetInformationAboutAnyVehicleByEnteringTheVin',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter VIN by Camera, Image, or Manually`
+  String get enterVinByCameraImageOrManually {
+    return Intl.message(
+      'Enter VIN by Camera, Image, or Manually',
+      name: 'enterVinByCameraImageOrManually',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Back`
+  String get back {
+    return Intl.message(
+      'Back',
+      name: 'back',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Get Started`
+  String get getStarted {
+    return Intl.message(
+      'Get Started',
+      name: 'getStarted',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Get Detailed and Accurate Vehicle Information`
+  String get getDetailedAndAccurateVehicleInformation {
+    return Intl.message(
+      'Get Detailed and Accurate Vehicle Information',
+      name: 'getDetailedAndAccurateVehicleInformation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hello\nSign in!`
+  String get hellonsignIn {
+    return Intl.message(
+      'Hello\nSign in!',
+      name: 'hellonsignIn',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Gmail`
+  String get gmail {
+    return Intl.message(
+      'Gmail',
+      name: 'gmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message(
+      'Password',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot Password?`
+  String get forgotPassword {
+    return Intl.message(
+      'Forgot Password?',
+      name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `SIGN IN`
+  String get signIn {
+    return Intl.message(
+      'SIGN IN',
+      name: 'signIn',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don't have account?`
+  String get dontHaveAccount {
+    return Intl.message(
+      'Don\'t have account?',
+      name: 'dontHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign up`
+  String get signUp {
+    return Intl.message(
+      'Sign up',
+      name: 'signUp',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Name`
+  String get name {
+    return Intl.message(
+      'Name',
+      name: 'name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get email {
+    return Intl.message(
+      'Email',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `ZIP Code`
+  String get zipCode {
+    return Intl.message(
+      'ZIP Code',
+      name: 'zipCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Register`
+  String get registerBtn {
+    return Intl.message(
+      'Register',
+      name: 'registerBtn',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `back To Login`
+  String get backToLogin {
+    return Intl.message(
+      'back To Login',
+      name: 'backToLogin',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `send`
+  String get send {
+    return Intl.message(
+      'send',
+      name: 'send',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `example@gmail.com`
+  String get hintGmail {
+    return Intl.message(
+      'example@gmail.com',
+      name: 'hintGmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `*********`
+  String get hintPassword {
+    return Intl.message(
+      '*********',
+      name: 'hintPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create your Account`
+  String get createYourAccount {
+    return Intl.message(
+      'Create your Account',
+      name: 'createYourAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please fill your information below`
+  String get pleaseFillYourInformationBelow {
+    return Intl.message(
+      'Please fill your information below',
+      name: 'pleaseFillYourInformationBelow',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

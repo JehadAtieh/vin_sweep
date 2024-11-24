@@ -22,13 +22,44 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "back": MessageLookupByLibrary.simpleMessage("Back"),
+        "backToLogin": MessageLookupByLibrary.simpleMessage("back To Login"),
+        "createYourAccount":
+            MessageLookupByLibrary.simpleMessage("Create your Account"),
+        "dontHaveAccount":
+            MessageLookupByLibrary.simpleMessage("Don\'t have account?"),
         "easilyScanAnyVehicleTypeForDetails":
             MessageLookupByLibrary.simpleMessage(
                 "Easily Scan Any Vehicle Type for Details"),
+        "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "enterVinByCameraImageOrManually": MessageLookupByLibrary.simpleMessage(
+            "Enter VIN by Camera, Image, or Manually"),
+        "forgotPassword":
+            MessageLookupByLibrary.simpleMessage("Forgot Password?"),
+        "getDetailedAndAccurateVehicleInformation":
+            MessageLookupByLibrary.simpleMessage(
+                "Get Detailed and Accurate Vehicle Information"),
+        "getStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
+        "gmail": MessageLookupByLibrary.simpleMessage("Gmail"),
+        "hellonsignIn": MessageLookupByLibrary.simpleMessage("Hello\nSign in!"),
+        "hintGmail": MessageLookupByLibrary.simpleMessage("example@gmail.com"),
+        "hintPassword": MessageLookupByLibrary.simpleMessage("*********"),
+        "name": MessageLookupByLibrary.simpleMessage("Name"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
+        "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "pleaseFillYourInformationBelow": MessageLookupByLibrary.simpleMessage(
+            "Please fill your information below"),
+        "quicklyGetInformationAboutAnyVehicleByEnteringTheVin":
+            MessageLookupByLibrary.simpleMessage(
+                "Quickly get information about any vehicle by entering the VIN manually, scanning an image, or taking a photo."),
+        "registerBtn": MessageLookupByLibrary.simpleMessage("Register"),
+        "send": MessageLookupByLibrary.simpleMessage("send"),
+        "signIn": MessageLookupByLibrary.simpleMessage("SIGN IN"),
+        "signUp": MessageLookupByLibrary.simpleMessage("Sign up"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
         "supportsSedansHatchbacksTrucksAndMoreGetInformationOnAny":
             MessageLookupByLibrary.simpleMessage(
-                "Supports sedans, hatchbacks, trucks, and more. Get information on any vehicle type easily.")
+                "Supports sedans, hatchbacks, trucks, and more. Get information on any vehicle type easily."),
+        "zipCode": MessageLookupByLibrary.simpleMessage("ZIP Code")
       };
 }
